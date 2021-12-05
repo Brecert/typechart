@@ -3,7 +3,7 @@ import { table } from "./typetable.ts";
 
 const React = { createElement: h };
 
-const typeClass = (type: string) => `type-${type.toLowerCase()}`;
+const typeClass = (type: string) => `type ${type.toLowerCase()}`;
 
 const fraction = ["0", "1", "2", "½"];
 
@@ -22,15 +22,11 @@ const title = [
 ];
 
 export const GENERATED_HTML = (
-  <table class="type-table text-center">
+  <table class="type-table">
     <caption>Pokémon Generation VI+ type chart</caption>
     <thead>
       <th>×</th>
-      {table[0].map((type) => (
-        <th class={typeClass(type)} data-i-type={type}>
-          <span>{type}</span>
-        </th>
-      ))}
+      {table[0].map((type) => <th class={typeClass(type)}>{type}</th>)}
     </thead>
     <tbody>
       {table[0].map((type, i) => {
@@ -38,9 +34,7 @@ export const GENERATED_HTML = (
 
         return (
           <tr>
-            <th class={typeClass(type)} scope="row">
-              <span>{type}</span>
-            </th>
+            <th class={typeClass(type)} scope="row">{type}</th>
             {row.map((val, ti) => (
               <td
                 title={`${type} ${title[val as number]} against ${

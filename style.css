@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
 html {
   font-family: "Montserrat", sans-serif;
   font-weight: 0;
@@ -10,13 +8,19 @@ body {
   margin: auto;
 }
 
-.text-center {
-  text-align: center;
-}
-
 caption {
   padding: 10px;
   caption-side: bottom;
+}
+
+th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+dt {
+  float: left;
 }
 
 .type-table {
@@ -26,7 +30,8 @@ caption {
   letter-spacing: 1px;
   font-size: 1rem;
 
-  table-layout: fixed;
+  text-align: center;
+
   width: 90vw;
-  white-space: nowrap;
+  table-layout: fixed;
 }

@@ -1,87 +1,82 @@
 /* type colors */
-.type-steel {
+
+/* dark foreground */
+.type,
+.no-effect {
+  color: #fcfcfc;
+}
+
+/* light forground */
+.normal,
+.electric,
+.grass,
+.ice,
+.ground,
+.flying,
+.steel,
+.fairy {
   color: #212121;
 }
-.type-steel {
-  background-color: #9eb7b8;
+
+.steel {
+  --type: #9eb7b8;
 }
-.type-psychic {
-  color: #fff;
+.psychic {
+  --type: #f366b9;
 }
-.type-psychic {
-  background-color: #f366b9;
+.water {
+  --type: #4592c4;
 }
-.type-water {
-  color: #fff;
+.rock {
+  --type: #a38c21;
 }
-.type-water {
-  background-color: #4592c4;
+.poison {
+  --type: #b97fc9;
 }
-.type-rock {
-  color: #fff;
+.normal {
+  --type: #a4acaf;
 }
-.type-rock {
-  background-color: #a38c21;
+.ice {
+  --type: #51c4e7;
 }
-.type-poison {
-  color: #fff;
+.ground {
 }
-.type-poison {
-  background-color: #b97fc9;
+.ground {
+  --type: #f7de3f;
 }
-.type-normal {
-  color: #212121;
-  background-color: #a4acaf;
+.grass {
+  --type: #9bcc50;
 }
-.type-ice {
-  color: #212121;
-  background-color: #51c4e7;
+.ghost {
+  --type: #7b62a3;
 }
-.type-ground {
-  color: #212121;
+.flying {
+  --type: #3dc7ef;
 }
-.type-ground {
-  background-color: #f7de3f;
+.fire {
+  --type: #fd7d24;
 }
-.type-grass {
-  color: #212121;
-  background-color: #9bcc50;
+.fighting {
+  --type: #d56723;
 }
-.type-ghost {
-  color: #fff;
-  background-color: #7b62a3;
+.fairy {
+  --type: #fdb9e9;
 }
-.type-flying {
-  color: #212121;
-  background-color: #3dc7ef;
+.electric {
+  --type: #eed535;
 }
-.type-fire {
-  color: #fff;
-  background-color: #fd7d24;
+.dragon {
+  --type: #53a4cf;
 }
-.type-fighting {
-  color: #fff;
-  background-color: #d56723;
+.dark {
+  --type: #707070;
 }
-.type-fairy {
-  color: #212121;
-  background-color: #fdb9e9;
+.bug {
+  --type: #729f3f;
 }
-.type-electric {
-  color: #212121;
-  background-color: #eed535;
-}
-.type-dragon {
-  color: #fff;
-  background-color: #53a4cf;
-}
-.type-dark {
-  color: #fff;
-  background-color: #707070;
-}
-.type-bug {
-  color: #fff;
-  background-color: #729f3f;
+
+.type {
+  background-color: var(--type);
 }
 
 /* other */
@@ -99,5 +94,4 @@
 
 .no-effect {
   background-color: rgba(13, 13, 13, 0.5);
-  color: #fff;
 }
