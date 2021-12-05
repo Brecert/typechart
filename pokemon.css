@@ -2,109 +2,85 @@
 .type-steel {
   color: #212121;
 }
-.type-steel  {
+.type-steel {
   background-color: #9eb7b8;
 }
 .type-psychic {
   color: #fff;
 }
-.type-psychic  {
+.type-psychic {
   background-color: #f366b9;
 }
 .type-water {
   color: #fff;
 }
-.type-water  {
+.type-water {
   background-color: #4592c4;
 }
 .type-rock {
   color: #fff;
 }
-.type-rock  {
+.type-rock {
   background-color: #a38c21;
 }
 .type-poison {
   color: #fff;
 }
-.type-poison  {
+.type-poison {
   background-color: #b97fc9;
 }
 .type-normal {
   color: #212121;
-}
-.type-normal  {
   background-color: #a4acaf;
 }
 .type-ice {
   color: #212121;
-}
-.type-ice  {
   background-color: #51c4e7;
 }
 .type-ground {
   color: #212121;
 }
-.type-ground  {
+.type-ground {
   background-color: #f7de3f;
 }
 .type-grass {
   color: #212121;
-}
-.type-grass  {
   background-color: #9bcc50;
 }
 .type-ghost {
   color: #fff;
-}
-.type-ghost  {
   background-color: #7b62a3;
 }
 .type-flying {
   color: #212121;
-}
-.type-flying  {
   background-color: #3dc7ef;
 }
 .type-fire {
   color: #fff;
-}
-.type-fire  {
   background-color: #fd7d24;
 }
 .type-fighting {
   color: #fff;
-}
-.type-fighting  {
   background-color: #d56723;
 }
 .type-fairy {
   color: #212121;
-}
-.type-fairy  {
   background-color: #fdb9e9;
 }
 .type-electric {
   color: #212121;
-}
-.type-electric  {
   background-color: #eed535;
 }
 .type-dragon {
   color: #fff;
-}
-.type-dragon  {
   background-color: #53a4cf;
 }
 .type-dark {
   color: #fff;
-}
-.type-dark  {
   background-color: #707070;
 }
 .type-bug {
   color: #fff;
-}
-.type-bug  {
   background-color: #729f3f;
 }
 
@@ -115,12 +91,10 @@
 
 .super-effective {
   background-color: rgba(8, 161, 231, 0.5);
-  /*   color: #fff; */
 }
 
 .not-very-effective {
   background-color: rgba(228, 17, 98, 0.5);
-  /*   color: #fff; */
 }
 
 .no-effect {
